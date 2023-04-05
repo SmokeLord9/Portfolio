@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+*,::after,::before{margin: 0;padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+body,html{width: 100%;height: 100%; &::-webkit-scrollbar{width: 0%;}font-family: 'Orbitron', sans-serif;overflow-x: hidden;}
+
+.header_website{
+    top: 0%;
+    color: #D0CEBA;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background: #4C4C47;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    #title{
+        span{
+            color: #C1292E;
+        }
+    }
+    }
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: #2D2D2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container_page1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        p{
+            color: #D0CEBA;
+            font-size: 3vw;
+        }
+        h3{
+            font-size: 10vw;
+            color: #D0CEBA;
+            #h{
+                color: #C1292E;
+            }
+        }
+    }
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    /* background-color: #C1292E; */
+    background-color: #2D2D2A;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .page2_right{
+        background-color: #2D2D2A;
+        color: #D0CEBA;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+        a{
+            color: #D0CEBA;
+            font-size: 20px;
+            border: 2px solid #D0CEBA;
+            padding: 5px 45px;
+            border-radius: 10px;
+            &:hover{
+                background-color: #D0CEBA;
+                color: #2D2D2A;
+            }
+        }
+        p{
+            font-size: 2vw;
+        }
+    }
+    .swiper{
+        width: calc(100% - 60%);
+        height: calc(100% - 20rem);
+        border-radius: 10px;
+        .one{
+            #titleSwiperProjet{
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                -webkit-text-fill-color: transparent;
+                background-image: url(../assets/colorbg.jpg);
+            }
+        }
+        .deux{
+            #titleSwiperProjet{
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                -webkit-text-fill-color: transparent;
+                background-image: url(../assets/brain.jpg);
+            }
+        }
+        .trois{
+            #titleSwiperProjet{
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                -webkit-text-fill-color: transparent;
+                background-image: url(../assets/network.jpg);
+            }
+        }
+        .swiper-slide{
+            border-radius: 10px;
+            background-color: #fefefe;
+            #titleSwiperProjet{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: calc(100% + 5rem);
+                font-weight: 900;
+            }
+            .header_slide{
+                background-color: #eae4df;
+                padding: 10px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                span{
+                    color: #4C4C47;
+                    font-size: 10px;
+                }
+                gap: 14px;
+                button{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 100%;
+                    border: none;
+                    &:nth-child(1){
+                        background-color: #ff5f57;
+                    }
+                    &:nth-child(2){
+                        background: #d8d4d1;
+                    }
+                    &:nth-child(3){
+                        background: #28c840;
+                    }
+                }
+            }
+        }
+    }
+}
+.image{
+    width: 100%;
+    height: 500px;
+    background: url("../assets/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+.afterScroll{
+    transition: all 0.6s;
+}
