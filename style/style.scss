@@ -44,6 +44,28 @@ body,html{width: 100%;height: 100%; &::-webkit-scrollbar{width: 0%;}font-family:
         }
     }
 }
+@media screen and (max-width: 960px) {
+    .header_website{
+        position: initial;
+    }
+    .page2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        padding: 30px;
+        .page2_right{
+            height: 50%;
+            width: 100%;
+            p{
+                font-size: 10vw;
+            }
+        }
+    }
+    .swiper{
+        height: 50px;
+    }
+}
 .page2{
     width: 100%;
     height: 100%;
@@ -55,9 +77,8 @@ body,html{width: 100%;height: 100%; &::-webkit-scrollbar{width: 0%;}font-family:
     align-items: center;
     justify-content: space-around;
     .page2_right{
-        background-color: #2D2D2A;
         color: #D0CEBA;
-        height: 100%;
+        height: 50%;
         width: 50%;
         display: flex;
         align-items: center;
@@ -78,12 +99,12 @@ body,html{width: 100%;height: 100%; &::-webkit-scrollbar{width: 0%;}font-family:
             }
         }
         p{
-            font-size: 2vw;
+            font-size: 4vw;
         }
     }
     .swiper{
-        width: calc(100% - 60%);
-        height: calc(100% - 20rem);
+        width: /* calc(100% - 60%) */ 50vw;
+        height: 40vh;
         border-radius: 10px;
         .one{
             #titleSwiperProjet{
@@ -120,7 +141,7 @@ body,html{width: 100%;height: 100%; &::-webkit-scrollbar{width: 0%;}font-family:
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                font-size: calc(100% + 5rem);
+                font-size: 4vw;
                 font-weight: 900;
             }
             .header_slide{
