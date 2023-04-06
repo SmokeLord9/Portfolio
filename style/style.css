@@ -85,6 +85,9 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 960px) {
+  .swiper {
+    width: 100px;
+  }
   .header_website {
     position: initial;
   }
@@ -108,9 +111,6 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
   }
   .page2 .page2_right p {
     font-size: 10vw;
-  }
-  .swiper {
-    height: 50px;
   }
 }
 
@@ -167,12 +167,12 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
 }
 
 .page2 .page2_right p {
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
 .page2 .swiper {
-  width: 30vw;
-  height: 40vh;
+  width: 45%;
+  height: 50%;
   border-radius: 10px;
 }
 
