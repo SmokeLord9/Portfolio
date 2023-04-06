@@ -167,11 +167,11 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
 }
 
 .page2 .page2_right p {
-  font-size: 4vw;
+  font-size: 2vw;
 }
 
 .page2 .swiper {
-  width: 50vw;
+  width: 30vw;
   height: 40vh;
   border-radius: 10px;
 }
