@@ -51,10 +51,10 @@ swiper.on('slideChange', function (){
         desc_pro.innerHTML = "Ce projet à été codé dans le but d'un défi de code ou l'ont devaient choisir une couleur aléatoirement et en faire un site";
         link_for_p.href = "https://smokelord9.github.io/ColorPicker/";
     }else if(index == 1){
-        desc_pro.innerHTML = "Ce projet à été codé dans le but de m'informer sur l'intéligence artificielle";
+        desc_pro.innerHTML = "ce projet a été coder dans le but d'en apprendre plus sur l'intéligence artificielle ";
         link_for_p.href = "https://github.com/SmokeLord9/Perceptrons/";
     }else{
-        desc_pro.innerHTML = "Ce projet est un mini jeu coup prierre feuille sciseau";
+        desc_pro.innerHTML = "ce projet est un coup pierre feuille ciseaux codé en 1h pour un défi ";
         link_for_p.href = "https://smokelord9.github.io/ROCKPAPERSCISSORS/";
     }
 })
